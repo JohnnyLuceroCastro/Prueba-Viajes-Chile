@@ -27,3 +27,13 @@ nav{
     font-size: 24px;
     color: white;
 }
+
+#Destacados .card {
+    background-color: skyblue;
+    color: white;
+    border-color: grey;
+}
+
+.card-img{
+    height: 10rem;
+}
