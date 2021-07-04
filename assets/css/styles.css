@@ -1,6 +1,6 @@
 hr {
     height: 1px;
-    background-color: skyblue;
+    background-color: rgba(0, 255, 255, 0.726);
 }
 
 body {
@@ -8,6 +8,11 @@ body {
     background-color: black;
     color: white;
 }
+
+.popover {
+    color: red!important;
+}
+
 /* Navbar */
 nav{
     background-color: transparent;
@@ -20,7 +25,7 @@ nav{
 }
 
 .columnas {
-    background-color: skyblue;
+    background-color: rgba(0, 255, 255, 0.726);
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -29,11 +34,24 @@ nav{
 }
 
 #Destacados .card {
-    background-color: skyblue;
+    background-color: rgba(0, 255, 255, 0.726);
     color: white;
     border-color: grey;
 }
-
+/* se iguala tamaño de cards */
 .card-img{
     height: 10rem;
+}
+/* Contacto */
+#Contacto{
+  
+}
+
+/* Footer */
+#footer {
+    background-color: rgba(0, 255, 255, 0.726);
+}
+
+#footer a {
+    color: white;
 }
